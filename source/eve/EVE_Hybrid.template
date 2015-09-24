@@ -1,0 +1,21 @@
+
+
+The term "hybrid critical editions" refers to means of producing series of critical editions (usually all the works of one composer) in which the score is published in book form while the critical apparatus consists of digitized sources which are hyperlinked to one another to facilitate comparison. Underlying materials may also be linked to metadata (factual content) in a database or other structured, searchable format.  The primary software tool currently in use for preparing such editions is called the [http://www.edirom.de/en/ Edirom]. It is developed and maintained by the [http://www.edirom.de/startseite/ Detmold/Paderborn musicology seminar], which offers an annual summer school for prospective users. 
+
+===Anton Bruckner Collected Edition===
+
+Website: [http://www.bruckner-online.at/?page_id=537 Anton Bruckner Gesamtausgabe]
+
+The new edition currently in progress is part of a comprehensive Bruckner site, at the [http://bruckner-online.at Bruckner internet portal] of the Austrian National Library in Vienna.  A work search form can be found [http://www.bruckner-online.at/?page_id=626 here], a database of works [http://www.bruckner-online.at/?page_id=620 here], and digitized copies of out-of-copyright works [http://www.bruckner-online.at/?page_id=870 here].
+
+===Carl Maria von Weber Collected Edition===
+
+Website: [http://www.weber-gesamtausgabe.de/de/Index Carl Maria von Weber Gesamtausgabe]
+
+The Carl Maria von Weber Collected Edition has been the proving ground for the Edirom, an MEI-based tool for viewing collateral sources and cross-linking details to corresponding points in a printed score.  The edition website gives access to biographical and philological adjuncts--letters, diaries, work listings, and so forth. The digital apparatus to support the score editions (i.e. the Edirom) is described [http://www.edirom.de/en/cooperations/carl-maria-von-weber-gesamtausgabe/ here].  The Music-Encoding Initiative (MEI) has an extensive website [http://music-encoding.org/ here].
+
+===Freischütz Digital===
+
+Website: [http://www.freischuetz-digital.de/ Freischütz Digital]
+
+A proof-of-concept project complementing the Carl Maria von Weber hybrid digital edition.  It involves a database, musical transcriptions, and (like other hybrid editions) material encoded in TEI and MEI.  In addition contributions from allied technologies are being considered.
