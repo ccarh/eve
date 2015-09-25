@@ -767,6 +767,7 @@ function parseCategoryContent(index, content) {
 	if (location.hash.match(/^#.+/)) {
 		doHashSearch(location.hash.substr(1));
 	} 
+	openAllLinks();
 }
 
 

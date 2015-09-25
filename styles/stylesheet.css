@@ -100,7 +100,7 @@ summary.category {
 
 .page-header {
   background-color: rgb(30,46,52);
-  background-image: url('/images/theme_header_watercolors.png');
+  background-image: url('/images/evebanner.jpg');
   background-size: cover;
 }
 
@@ -161,11 +161,13 @@ table > tbody > tr > td {
 	padding-top: 40px;
 }
 
-.project-name {
+h1.project-name {
+	color: white;
 	margin-top: 0;
+	font-weight: 900;
 	margin-bottom: 0.1rem; 
-	text-shadow: 4px 4px 14px #000;
-
+	font-size: 260%;
+	text-shadow: 6px 7px 14px #000;
 }
 
 .project-name2 a:hover {
