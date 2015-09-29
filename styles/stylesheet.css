@@ -99,7 +99,6 @@ summary.category {
 }
 
 .page-header {
-  background-color: rgb(30,46,52);
   background-image: url('/images/evebanner.jpg');
   background-size: cover;
 }
@@ -162,12 +161,9 @@ table > tbody > tr > td {
 }
 
 h1.project-name {
-	color: white;
 	margin-top: 0;
-	font-weight: 900;
 	margin-bottom: 0.1rem; 
-	font-size: 260%;
-	text-shadow: 6px 7px 14px #000;
+	text-shadow: 4px 4px 14px #000;
 }
 
 .project-name2 a:hover {
@@ -321,10 +317,17 @@ h1.project-name {
 	border: 0; }
 
 
-.site-footer {
+footer {
+	display: none;
+	position: static;
+	bottom: 0px;
+	background-image: url('/images/evebanner.jpg');
+	width: 100%;
+	background-size: cover;
 	padding-top: 2rem;
 	margin-top: 2rem;
-	border-top: solid 1px #eff0f1; }
+	border-top: solid 1px #eff0f1;
+}
 
 .site-footer-owner {
 	display: block;
@@ -506,6 +509,17 @@ dl.qtip-dl dd {
 	color: #777;
 }
 
+.links-top {
+	position: absolute;
+	left: 110px;
+	top: 104px;
+	font-size: 120%;
+	text-shadow: 4px 4px 14px #000;
+}
+
+.top-icons {
+	text-shadow: 4px 4px 14px #000;
+}
 
 dl.qtip-search {
 	padding: 0.5em;
