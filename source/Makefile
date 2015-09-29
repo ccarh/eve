@@ -18,10 +18,12 @@ drm:
 	-(cd drm; ../getsource Digital_Resources_for_Musicology)
 
 eve:
-	-(cd eve; ../getsource 'EVE_(Electronic_and_Virtual_Editions)')
+	-(cd eve; ../getsource 'EVE_%28Electronic_and_Virtual_Editions%29')
 
 clean:
 	-(cd drm; -rm *.template)
 	-(cd drm; -rm main.wiki)
 	-(cd eve; -rm *.template)
 	-(cd eve; -rm main.wiki)
+
+

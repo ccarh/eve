@@ -48,7 +48,8 @@ exit(0);
 sub getRawWikiFile {
 	my ($page) = @_;
 	print "Downloading $page\n";
-	my $content = `wget "$page" -O - 2> /dev/null`;
+	#my $content = `wget '$page' -O - 2> /dev/null`;
+	my $content = `wget '$page' -O -`;
 	$content =~ s/.*<textarea[^>]*>//is;
 	$content =~ s/<\/textarea>.*//is;
 	return $content;

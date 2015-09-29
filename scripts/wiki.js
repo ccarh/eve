@@ -41,7 +41,34 @@ function wiki2html(content) {
 
 	output = convertInternalLinksToHyperlinks(output);
 	output = convertExternalLinksToHyperlinks(output);
+	output = addBlankLines(output);
 
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// addBlankLines --
+//
+
+function addBlankLines(input) {
+	output = output.replace(/\s+$/, '');
+	output = output.replace(/^\s+/, '');
+	var lines = output.match(/[^\r\n]+/g);
+	var output = "";
+	var i;
+
+	for (var i=0; i<lines.length; i++) {
+		if (lines[i].match(/^\s*$/) {
+			output += '<div class="paragraph"></div>'\n;
+		} else if (lines[i].match(/^Return to.*Digital/)) {
+			continue;
+		} else {
+			output += lines[i] + '\n';
+		}
+	}
 	return output;
 }
 
