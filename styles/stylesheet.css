@@ -13,6 +13,10 @@ details.link-entry > summary {
 	color: #d77942;
 }
 
+.paragraph {
+   padding-top: 12px;
+}
+
 details[open] > summary::-webkit-details-marker {display: none; }
 
 .segment {
@@ -93,9 +97,14 @@ summary.category:before {
 	text-align: center;
 }
 
+details.link-entry > summary {
+	cursor: pointer;
+}
+
 summary.category {
 	color: #159957;
 	font-size: 2.0rem;
+	cursor:pointer;
 }
 
 .page-header {

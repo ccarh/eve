@@ -241,7 +241,8 @@ function setCategoryRaw(index, content) {
 	entry.raw = content;
 	entry.number = index + 1;
 	var raw = entry.raw;
-	var lines = raw.match(/[^\r\n]+/g);
+	// var lines = raw.match(/[^\r\n]+/g);
+	var lines = raw.split(/\n/);
 	var counter = 0;
 	var rawlinks = [];
 	rawlinks[0] = '';
@@ -396,11 +397,14 @@ function stripAccents(input) {
 function setLinkEntry(link) {
 	var raw = link.raw;
 	link.search = stripAccents(raw);
-	var lines = raw.match(/[^\r\n]+/g);
+	raw = raw.replace(/^\s+/, '');
+	raw = raw.replace(/\s+$/, '');
+	var lines = raw.split(/\n/);
 	var hasContent = 0;
 	var matches;
 	var text = '';
 	var i;
+
 	for (i=0; i<lines.length; i++) {
 		if (!lines[i].match(/^\s*$/)) {
 			if (!hasContent) {
@@ -414,6 +418,16 @@ function setLinkEntry(link) {
 			// have to remove equals signs at end here for some reason:
 			link.title = wiki2html(matches[2].replace(/\s*=+\s*$/, ''));
 			link.titlesearch = stripAccents(link.title);
+			if (i < lines.length - 1) {
+				if (lines[i+1].match(/^\s*$/)) {
+					i++;
+				}
+			}
+		} else if (lines[i].match(/^Website:/)) {
+			text += lines[i] + '\n';
+			if ((i < lines.length-1) && (lines[i+1].match(/^\s*$/))) {
+				i++;
+			}
 		} else if (hasContent) {
 			text += lines[i] + '\n';
 		}
@@ -430,6 +444,7 @@ function setLinkEntry(link) {
 		}
 	}
 	link.type = 'link';
+
 	var xlines = text.match(/^.*([\n\r]+|$)/gm);
 	text = '';
 	for (i=0; i<xlines.length; i++) {
