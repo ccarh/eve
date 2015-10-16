@@ -5,7 +5,7 @@ Electronic editions have diverse purposes and therefore pursue different avenues
 ==Analysis-enabled Scores==
 {{EVE_Analysis}}
 
-==Critical Editions==
+==Digital Critical Editions==
 {{EVE_Critical_Editions}}
 
 ==Editable Score Data==
@@ -13,3 +13,6 @@ Electronic editions have diverse purposes and therefore pursue different avenues
 
 ==Hybrid Digital Editions==
 {{EVE_Hybrid}}
+
+==Score Aggregations==
+{{EVE_Aggregations}}
