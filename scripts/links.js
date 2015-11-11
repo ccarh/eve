@@ -796,7 +796,6 @@ function parseCategoryContent(index, content) {
 function doHashSearch(hash) {
 	hash = hash.replace(/%20/g, ' ');
 	hash = hash.replace(/_/g, ' ');
-console.log("HASH SEARCH", hash);
 	var search = document.querySelector("#search-text");
 	if (!search) {
 		return;

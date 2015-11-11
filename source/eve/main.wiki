@@ -16,3 +16,6 @@ Electronic editions have diverse purposes and therefore pursue different avenues
 
 ==Score Aggregations==
 {{EVE_Aggregations}}
+
+==Score Visualizations==
+{{Score_Vizualizations}}
