@@ -195,7 +195,7 @@ function convertInternalLinksToHyperlinks(output) {
 
 function cleanURL(url) {
 	if (url === 'http://wiki.ccarh.org/wiki/EVE_%28Electronic_and_Virtual_Editions%29') {
-		url = 'http://eve.ccarh.org';
+		url = 'https://eve.ccarh.org';
 	}
 	return url;
 }
@@ -252,7 +252,7 @@ function getImageContent(input) {
 	settings.caption   = parameters[parameters.length-1];
 	settings.caption = settings.caption.replace(/<\/?small>/gi, '');
 	
-	settings.url       = 'src="http://wiki.ccarh.org/images/' + first + 
+	settings.url       = 'src="https://wiki.ccarh.org/images/' + first + 
 			'/' + second + '/' + filename + '"';
 	return renderImage(settings);
 }

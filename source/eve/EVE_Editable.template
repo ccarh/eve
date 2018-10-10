@@ -4,6 +4,14 @@ Website: [http://www.cmme.org/#ABH CMME]
 
 The idea of CMME, conceived in 1999 as a Princeton undergraduate project by Ted Dumitrescu, was to support dynamic editions based on encoding standards comparable with the most rigorous printed editions.  Editions of music in mensural notation have given rise to many changes of editorial opinion.  In contrast to print, virtual editions have the possibility of being easily re-rendered to express changing views.  On-screen views support the presence or absence of &lt;i>musica ficta&lt;/i> and text underlay rationalized to fit the music or clustered at the start of line (as in many period manuscripts).  Marnix van Berchem is the current director of the Utrecht-based project.
 
+[[File:VHV.png|250px|thumb|left|&lt;small>Snippet from the start of Mozart's piano sonata No. 8 (K. 310) showing Humdrum Kern code (left frame) and its scrolling output (right frame)&lt;/small>.]]
+
+===Verovio Humdrum Viewer (and Editor)===
+
+Website: [http://https://verovio.humdrum.org/ Verovio Humdrum Viewer]
+
+The Verovio Humdrum Viewer (VHV) is an implementation of Verovio based on the Kern data format used by the Humdrum (Musical Analysis) Toolkit.  While viewing a score produced from encoded material, a user can edit the code and see the changes immediately. By clicking an arbitrary point in the displayed score the music can also be heard. Verovio is a lightweight library for engraving MEI (Music Encoding Initiatve) scores into vector graphics for online display.)
+
 ===KernScores===
 
 Website: [http://kern.ccarh.org KernScores]
@@ -36,7 +44,7 @@ Mensural extensions by Hewlett have been adopted by the [http://jrp.stanford.edu
 
 ====MuseData score-and-part links====
 
-This series of wikis provides PDF scores and parts generated from edited MuseData. Each project has a separate link.  Several have MIDI files and other auxiliary materials.  
+The following series of wikis provides PDF scores and parts generated from edited MuseData. Each project has a separate link.  Several have MIDI files and other auxiliary materials.  
 
 =====Ludwig van Beethoven=====
 
@@ -66,10 +74,32 @@ Website: [http://wiki.ccarh.org/wiki/MuseData:_George_Frideric_Handel  Georg Fri
 
 Website: [http://wiki.ccarh.org/wiki/MuseData:_Antonio_Vivaldi  Antonio Vivaldi]
 
-* Parts for the CCARH-Dover editions
+Parts for the CCARH-Dover editions:
 
 * Concerti Op. 3, Nos. 1-12
 
 * Concerti Op. 8, Nos. 1-12
 
 * Flute Concertos Op. 10, No. 1-6 (plus four from manuscript sources)
+
+[[File:Josquin-fugam2.PNG|440px|thumb|left|&lt;small>Start of the Christe section of the Missa Ad fugam,tentatively attributed to Josquin, in the [http://jrp.stanford.edu Josquin Research Project].&lt;/small>]]
+
+===Josquin Research Project===
+
+Website: [http://jrp.stanford.edu/ Josquin Research Project]
+
+The Josquin Research Project began as an effort to support comparative evaluations of authorship.  Surviving works attributed to Josquin fall into two broad groups: those for which authorship is secure and those for which attributions to multiple composers may exist.  Currently, 763 works by a total of 23 composers are included. Motets and mass sections predominate.  The number of voices varies from three to six.  Users can search for pitches, intervals, and rhythmic patterns in a browser.  The files are available in several symbolic formats (MIDI, Humdrum, MEI, MuseData, MusicXML, MP3, and PDF). Displays with and without [https://en.wikipedia.org/wiki/Musica_ficta &lt;i>musica ficta&lt;/i>] are supported. Jesse Rodin is the principal investigator. Craig Sapp manages the website and tool implementations.
+
+===Tasso in Music Project===
+
+[[File:Gesualdo.PNG|500px|thumb|right|&lt;small>Opening phrase of Gesualdo's setting of Tasso's &lt;i>Rima&lt;/i> 560 ("Tarquinia, se rimiri") from the [http://www.tassomusic.org/work/?id=Trm0560i Tasso in Music Project.&lt;/small>] ]] 
+
+Website: [http://www.tassomusic.org/ Tasso in Music Project]
+
+The Tasso in Music Project, under the direction of Emiliano Ricciardi, presents all the musical settings of the poetry of Torquato Tasso (1544-1595). For the time, Tasso's work was widely distributed. It was accessible to both the learned and to ordinary people.  His best known works are &lt;i>Aminta&lt;/i> (1573) and &lt;i>Gerusalemme liberata&lt;/i> (Jerusalem liberated, 1574), an epic focused on the First Crusade. Its numerous tales were retold in countless musical contexts, including Monteverdi's &lt;i>Tancredi e Clorinda&lt;/i> and subsequent operas of the seventeenth century. Tasso's biography, which incorporated notable emotional vicissitudes, inspired later works by Liszt and Donizetti.  Tasso's &lt;i>Rime&lt;/i> (Rhymes) were set prolifically by [https://en.wikipedia.org/wiki/Carlo_Gesualdo Gesualdo](1566-1613) and [https://en.wikipedia.org/wiki/Giaches_de_Wert Wert] (1535-1596).  The Tasso project makes both the literary texts and the music (including multiple settings of the the same text) available.  The integration of critical information (sources, variants, clefs, mensuration signs) and tools for extracting text from the music are provided.  Technical direction is provided by Craig Sapp. Numerous scholars contribute their expertise to the project.  Alternative formats follow the model of the Josquin Research Project.
+
+===Turkish Makam Music Collection===
+
+Website: [https://github.com/MTG/SymbTr Turkish Makam Music Collection (SymbTr)]
+
+The Turkish Makam Music Symbolic Data Collection (SymbTr) is designed for analysis of encoded repertories and is currently the largest repertory of its kind. It offers 2,200 pieces from 155 makams, 88 usuls, 56 forms, about 865,000 musical notes (80 hours of nominal playback time).  [https://en.wikipedia.org/wiki/Makam Makam] is a system of intervalic relationships and melodic development types widely used in Turkish, Persian, and Arabic music.  This set of encoded scores, based on pieces from Turkish art and folk music, is based on authoritative sources. It covers a broad historical time span among pieces which are still performed in today. Scores are available in [https://github.com/MTG/SymbTr/tree/master/txt text], [https://github.com/MTG/SymbTr/tree/master/MusicXML MusicXML] (compatible with MuseScore, Finale and Sibelius), [https://github.com/MTG/SymbTr-pdf/tree/master PDF], [https://github.com/MTG/SymbTr/tree/master/midi MIDI] and [https://github.com/MTG/SymbTr/tree/master/mu2 mu2] formats. The mu2 format is readable by the microtonal notation editor Mus2.
