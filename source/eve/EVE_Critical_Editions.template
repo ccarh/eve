@@ -2,6 +2,8 @@ Editions listed here cite curated scores, usually with a critical apparatus (a d
 
 ===ASCIMA: Archive of Seventeenth-Century Italian Madrigals and Arias===
 
+[[File:Rovetta-Arianna.PNG|440px|thumb|right|&lt;small>From an edition of Giovanni Rovetta's madrigal "La giovane belissima Ariana" (1640) in the ASCIMA repository.&lt;/small.>]]
+
 Website: [http://www.ascima.bham.ac.uk ASCIMA]
 Website: [http://www.birmingham.ac.uk/schools/lcahm/departments/music/research/ascima/index.aspx ASCIMA]
 
@@ -11,13 +13,21 @@ The ASCIMA website, directed by John Whenham at Birmingham University (UK), prov
 
 Website: [http://cpebach.org/ &lt;i>C.P.E. Bach: The Complete Works&lt;/i>]
 
-This digital analogue of the printed set allows users to download complete scores.  Critical notes are viewable online.  All scores can be downloaded as PDFs by going to the "Contents of Series and Volumes" tab and selecting the work. Users seeking a work by catalogue number can consult the [http://cpebach.org/search.html "Search" tab].  Performing parts are available (at the Performing Materials tab) without cost on request.
+This digital analogue of the printed set allows users to download complete scores.  Critical notes are viewable online.  All scores can be downloaded as PDFs by going to the "Contents of Series and Volumes" tab and selecting the work. Users seeking a work by catalogue number can consult the [http://cpebach.org/search.html "Search" tab]. Non-transferable performing parts can be ordered at the Performing Materials tab without cost on request.  This series, which now includes links to facsimiles, the composer's autobiography, a catalog of his [https://loc.gov/item/ihas.200212334 &lt;i>Nachlass&lt;/i>], and a scan of Alfred Wotquenne's [https://archive.org/details/thematischesverz00wotq/page/n3/mode/2up?view=theater thematic catalog], is nearing completion.
+
+[[File:Dufay_O-gemma.PNG|420px|thumb|right|&lt;small>Opening of the online critical edition of DuFay's isorhythmic motet "O gemma, lux et speculum" from Panchart's edition of the &lt;i>Opera Omnia&lt;/i>.&lt;/small>]]
 
 ===&lt;i>Du Fay: Opera Omnia&lt;/i>===
 
-Website: [http://diamm2.cch.kcl.ac.uk/resources/planchartdufay.html &lt;i>Du Fay: Opera Omnia&lt;/i>]
+Website: [https://www.diamm.ac.uk/resources/music-editions/du-fay-opera-omnia/ &lt;i>Du Fay: Opera Omnia&lt;/i>]
 
-Alejandro Planchart's critical edition of all the works of Guillaume Du Fay is subdivided into eleven section by musical/liturgical genre. DIAMM intends to provide other editions at its [http://diamm2.cch.kcl.ac.uk/resources/editions.html website].
+Alejandro Planchart's critical edition of all the works of Guillaume Du Fay is subdivided into eleven section by musical/liturgical genre. The first three sections are currently available at the above link. All works are available in PDFs containing the edited music.
+
+===Gesualdo Online===
+
+Website: [https://ricercar.gesualdo-online.cesr.univ-tours.fr/ Gesualdo Online]
+
+Gesualdo Online is a collaborative project designed to enable dynamic editing of the of the composer's works, which are noted for their intensely chromatic development.  The project is based at the University of Tours. The organizers intend to show the editorial history of individual works by managing variants with MEI (the Music Encoding Initiative) and similar protocols.  As of April 2021, 222 works were available.
 
 ===MARGOT===
 
@@ -25,11 +35,30 @@ Website: [https://uwaterloo.ca/margot/margot-projects MARGOT]
 
 MARGOT is focused on a range of interdisciplinary, intertextual, and intermedia projects including German adaptations of French &lt;i>chanson de geste&lt;/i>, the &lt;i>Roman de la rose&lt;/i> in text and image, and women writers in the &lt;i>ancien régime&lt;/i>. Apart from being the home of the new CANTUS search engine (see [http://drm.ccarh.org/ DRM], 4.1.2), MARGOT is peripheral to most music study but complementary to certain musical topics of the medieval and early modern periods.  The site is being developed at the University of Waterloo in both French and English versions.
 
+===Measuring Polyphony===
+[[File:Machaut_init.PNG|360px|thumb|right|&lt;small>This illuminated initial from Guillaume de Machaut's "Dous viaire gracieus" is significantly enlarged.&lt;/small>]]
+
+Website: [https://measuringpolyphony.org/ Measuring Polyphony]
+
+&lt;i>Measuring Polyphony&lt;/i> presents digitizations of polyphonic compositions written during the thirteenth and fourteenth centuries in mensural notation.  In most cases these are linked to high-resolution images of the original manuscript sources. It offers new possibilities for mediating the scholarly and public experience of this music within its original context. It leverages the potential of the digital image repositories of music manuscripts and the community-based standards for encoding music notation of the [http://music-encoding.org/  Music Encoding Initiative (MEI)]. Two MEI encodings are provided--one for individual parts and one for a score.  The work can also be viewed in modern notation, downloaded as a PDF, and played as a MIDI file.  The use of the interoperable image framework [https://en.wikipedia.org/wiki/International_Image_Interoperability_Framework IIIF] facilitates the view of small details of the sources with many applications.  
+
+&lt;i>Measuring Polyphony&lt;/i> has three goals:
+    &lt;/p>
+                &lt;ol>
+                &lt;li> It makes transcriptions and audio freely available online to performers, scholars, and the general public, presented alongside images of the original music manuscripts;&lt;/li>
+
+                &lt;li> It encodes the medieval notation in a standardized machine-readable format so that the music data can potentially be be searched or analyzed using current tools, and through this interoperability make the data available to other websites and applications; and&lt;/li>
+
+                &lt;li> It makes the processes and tools for digitally encoding mensural polyphony in mensural notation freely available so that other stakeholders can easily and rapidly enlarge the dataset.&lt;/li>
+                &lt;/ol>
+
+Under the direction of Karen Desmond, this project began at the Schulich School of Music, McGill University, and now continues at Brandeis University.
+
 ===MODE: The Marenzio Online Digital Edition===
 
 Website: [http://www.marenzio.org/ The Marenzio Online Digital Edition (MODE)]
 
-This online digital edition of Luca Marenzio's secular music has been under development for several years.  Mauro Calcagno and Lorent Pugin are the principal investigators.  The musical sources are sixteenth-century partbooks that have been scanned (and "recognized') by Pugin's &lt;i>Aruspix&lt;/i> software.  Scores are assembled from the recognized parts.
+This online digital edition of Luca Marenzio's secular music has been under development for several years.  Mauro Calcagno and Laurent Pugin are the principal investigators.  The musical sources are sixteenth-century partbooks that have been scanned (and "recognized') by Pugin's &lt;i>Aruspix&lt;/i> software.  Scores are assembled from the recognized parts.  Demonstration works allow highlighting of textual variants, alternation between original and modern clefs, and navigation from section to section via text incipits.  Metadata and textual rhythm patterns can be viewed in a separate window.
 
 ===Parzival (Digital Critical Edition)===
 
@@ -37,14 +66,10 @@ Website: [http://www.parzival.unibe.ch/englishpresentation.html Parzival (Digita
 
 Owing to its long textual tradition (1210-1833) Wolfram von Eschenbach's medieval romance of the Arthurian knight &lt;i>Parzival&lt;/i> and his search for the Holy Grail has an exceptionally complex history. Its sources include 16 intact manuscripts, 77 fragments, and a print from 1477. The narrative weaves together fragments of several textual traditions. The value of a new digital edition incorporating principal sources will enable the study of intertextual relationships to other epics circulated in manuscript. Elements of the new project include the creation of a catalog of manuscripts and verse-by-verse annotations. Richard Wagner read a version of the work in 1845 and began to think about composing an opera on the subject in 1857, but his opera &lt;i>Parsifal&lt;/i> did not have its premiere until 1882.
 
-===Tasso in Music Project (TMP)===
-
-Website: [http://www.tassomusic.org Tasso in Music Project (TMP)]
-
-This digital edition of the musical settings of Torquato Tasso's poetry (&lt;i>c&lt;/i>. 1570-1640), which is still under development, will eventually provide all known musical settings up to 1640 of the poet's &lt;i>rime&lt;/i> and celebrated epics, including &lt;i> Gerusalemme liberata&lt;/i>, and other works.  The site is intended to present analytical views of the music and the poetry, for which there will also be textual concordances.  A "play" button enables synthetic performance, which is highlighted in the on-screen score.
+[[File:Biffi_Asperges-me.PNG|450px|thumb|right|&lt;small>Antonino Biffi: "Asperges me" from the Miserere mei, Deus," ed. Don Faber, Web Library of Seventeenth-Century Music, 2009.&lt;/small>]]
 
 ===Web Library of Seventeenth-Century Music (WLSCM)===
 
 Website: [http://www.sscm-wlscm.org/ Web Library of Seventeenth-Century Music (WLSCM)]
 
-The Web Library of Seventeenth-Century Music (ISSN 2330-2429), which operates under the auspices of the [http://sscm-sscm.org/ Society for Seventeenth-Century Music], is a curated collection of music that is not available otherwise. Most items in its catalogue features a "full volume" of works with critical notes. Most publications come from French and Italian composers. Each edition contains a complete opus or longer work. Current holdings include cantatas (including &lt;i>Lucrezia Romana&lt;/i>, Alessandro Scarlatti), canzonas (multiple composers), keyboard works and arrangements (R. Ayleward, 67 short pieces, with audio samples; J.-B. Lully, 250 pieces newly edited from scattered manuscripts), Lament for the Queen of England (A. Bertali), madrigals (Biagio Marini), motets (M.-A. Charpentier), and spiritual monodies (G. G. Kapsberger). Collectively these free, downloadable editions constitute the series &lt;i>Monuments of Seventeenteenth-Century Music&lt;/i>.
+The Web Library of Seventeenth-Century Music (ISSN 2330-2429), which operates under the auspices of the [http://sscm-sscm.org/ Society for Seventeenth-Century Music], is a curated collection of music that is otherwise unavailable. Most items in its catalog feature a "full volume" of works with an introduction and critical notes. Most publications come from French and Italian composers, with numerous Spanish items recently added (2021). Current holdings include cantatas (including &lt;i>Lucrezia Romana&lt;/i>, Alessandro Scarlatti), canzonas (multiple composers), keyboard works and arrangements (R. Ayleward, 67 short pieces, with audio samples; J.-B. Lully, 250 pieces newly edited from scattered manuscripts), Lament for the Queen of England (A. Bertali), madrigals (Biagio Marini), motets (M.-A. Charpentier), and spiritual monodies (G. G. Kapsberger). Collectively these downloadable editions constitute the series &lt;i>Monuments of Seventeenteenth-Century Music&lt;/i>.

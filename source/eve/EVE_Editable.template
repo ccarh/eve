@@ -36,17 +36,15 @@ KernScores also generates [http://kern.humdrum.org/help/tour/ piano rolls], [htt
 
 Website: [http://www.musedata.org MuseData]
 
-MuseData, based at the Center for Computer Assisted Research in the Humanities at Stanford University, refers to (1) an encoding system for music, (2) the software optimized for it, and (3) several corpora of scores encoded in the system. The representation system and software have been developed with Walter Hewlett from 1984 through the present. The system is described in &lt;i>Beyond MIDI&lt;/i>. 
+MuseData, based at the Center for Computer Assisted Research in the Humanities at Stanford University, refers to (1) an encoding system for music, (2) the software optimized for it, and (3) several corpora of scores encoded in the system. The representation system and software have been developed with Walter Hewlett from 1984 through the present. The basic features of the system are described in &lt;i>Beyond MIDI&lt;/i>: . 
 
-The musical corpora contain more than 1,200 fully encoded works, including symphonies, string quartets, operas, oratorios, cantatas, and other kinds of works. The names of encoders and musical sources are embedded in the files together with other metadata.  A large number of works have been encoded by Frances Bennion and Edmund Correia Jr. Other contributions have been made by [https://www.linkedin.com/in/jpdautricourt Jean-Pierre Dautricourt], [http://www.pamela-decker.com/ Pamela Decker], [https://www.linkedin.com/pub/michael-flexer/1/458/2a9 Michael Flexer], and Steve Rasmussen. The web interface and data conversion are principally the work of Craig Sapp (also the site manager), with contributions by [http://www.musiccog.ohio-state.edu/Huron/ David Huron] and [https://about.me/andreas.kornstaedt Andreas Kornstaedt].    
+The musical corpora contain more than 1,200 fully encoded works, including symphonies, string quartets, operas, oratorios, cantatas, and other kinds of works. The names of encoders and musical sources are embedded in the files together with other metadata.  A large number of works have been encoded by Frances Bennion and Edmund Correia Jr. Other contributions have been made by [https://www.linkedin.com/in/jpdautricourt Jean-Pierre Dautrecourt], [http://www.pamela-decker.com/ Pamela Decker], [https://www.linkedin.com/pub/michael-flexer/1/458/2a9 Michael Flexer], and Steve Rasmussen. The web interface and data conversion are principally the work of Craig Sapp (also the site manager), with contributions by [http://www.musiccog.ohio-state.edu/Huron/ David Huron] and [https://about.me/andreas.kornstaedt Andreas Kornstaedt].    
 
 Mensural extensions by Hewlett have been adopted by the [http://jrp.stanford.edu Josquin Research Project] and the Tasso Music project (online in 2016). MuseData supports conversion to MIDI, Humdrum Kern, SCORE, MusicXML, and MEI. Direct  conversion from MuseData code to PDF is under development.
 
-====MuseData score-and-part links====
+The following series of wikis provides PDF scores and/or performing parts generated from edited MuseData-encoded repositories.  Finalized files are stored on [[https://github.com/musedata github]]. Versions for editing can be downloaded from musedata.org.    
 
-The following series of wikis provides PDF scores and parts generated from edited MuseData. Each project has a separate link.  Several have MIDI files and other auxiliary materials.  
-
-=====Ludwig van Beethoven=====
+====MuseData: Ludwig van Beethoven====
 
 Website: [http://wiki.ccarh.org/wiki/MuseData:_Ludwig_van_Beethoven Ludwig van Beethoven]
 
@@ -54,13 +52,13 @@ Website: [http://wiki.ccarh.org/wiki/MuseData:_Ludwig_van_Beethoven Ludwig van B
 
 * [http://beethoven-string-quartets.ccarh.org String Quartets]
 
-=====Arcangelo Corelli=====
+====MuseData: Arcangelo Corelli====
 
 Website: [http://wiki.ccarh.org/wiki/MuseData:_Arcangelo_Corelli Arcangelo Corelli]
 
 The 72 sonatas and concertos published in Corelli's lifetime, with facsimiles, PDFs, MIDI files, and commentary.
 
-=====Georg Frideric Händel=====
+====MuseData: Georg Frideric Händel====
 
 Website: [http://wiki.ccarh.org/wiki/MuseData:_George_Frideric_Handel  Georg Frideric Händel]
 
@@ -70,17 +68,9 @@ Website: [http://wiki.ccarh.org/wiki/MuseData:_George_Frideric_Handel  Georg Fri
 
 * Concerti Op. 6: score and parts
 
-=====Antonio Vivaldi=====
+====MuseData: Antonio Vivaldi====
 
 Website: [http://wiki.ccarh.org/wiki/MuseData:_Antonio_Vivaldi  Antonio Vivaldi]
-
-Parts for the CCARH-Dover editions:
-
-* Concerti Op. 3, Nos. 1-12
-
-* Concerti Op. 8, Nos. 1-12
-
-* Flute Concertos Op. 10, No. 1-6 (plus four from manuscript sources)
 
 [[File:Josquin-fugam2.PNG|440px|thumb|left|&lt;small>Start of the Christe section of the Missa Ad fugam,tentatively attributed to Josquin, in the [http://jrp.stanford.edu Josquin Research Project].&lt;/small>]]
 
@@ -102,4 +92,4 @@ The Tasso in Music Project, under the direction of Emiliano Ricciardi, presents 
 
 Website: [https://github.com/MTG/SymbTr Turkish Makam Music Collection (SymbTr)]
 
-The Turkish Makam Music Symbolic Data Collection (SymbTr) is designed for analysis of encoded repertories and is currently the largest repertory of its kind. It offers 2,200 pieces from 155 makams, 88 usuls, 56 forms, about 865,000 musical notes (80 hours of nominal playback time).  [https://en.wikipedia.org/wiki/Makam Makam] is a system of intervalic relationships and melodic development types widely used in Turkish, Persian, and Arabic music.  This set of encoded scores, based on pieces from Turkish art and folk music, is based on authoritative sources. It covers a broad historical time span among pieces which are still performed in today. Scores are available in [https://github.com/MTG/SymbTr/tree/master/txt text], [https://github.com/MTG/SymbTr/tree/master/MusicXML MusicXML] (compatible with MuseScore, Finale and Sibelius), [https://github.com/MTG/SymbTr-pdf/tree/master PDF], [https://github.com/MTG/SymbTr/tree/master/midi MIDI] and [https://github.com/MTG/SymbTr/tree/master/mu2 mu2] formats. The mu2 format is readable by the microtonal notation editor Mus2.
+The Turkish Makam Music Symbolic Data Collection (SymbTr) is designed for analysis of encoded repertories and is currently the largest repertory of its kind. It offers 2,200 pieces from 155 makams, 88 usuls, 56 forms, about 865,000 musical notes (80 hours of nominal playback time).  [https://en.wikipedia.org/wiki/Makam Makam] is a system of intervalic relationships and melodic development types widely used in Turkish, Persian, and Arabic music.  This set of encoded scores, based on pieces from Turkish art and folk music, is based on authoritative sources. It covers a broad historical time span among pieces which are still performed in today. Scores are available in [https://github.com/MTG/SymbTr/tree/master/txt text], [https://github.com/MTG/SymbTr/tree/master/MusicXML MusicXML] (compatible with MuseScore, Finale and Sibelius), [https://github.com/MTG/SymbTr-pdf/tree/master PDF], [https://github.com/MTG/SymbTr/tree/master/midi MIDI] and [https://github.com/MTG/SymbTr/tree/master/mu2 mu2] formats. The mu2 format is readable by the microtonal notation editor Mus2.  Now available from [https://github.com/MTG/SymbTr github].

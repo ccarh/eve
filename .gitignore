@@ -2,3 +2,4 @@ _site
 .DS_Store
 source/drm
 images/drm
+.jekyll-cache
