@@ -6,7 +6,7 @@ Electronic editions have diverse purposes and therefore pursue different avenues
 ==Digital Critical Editions==
 {{EVE_Critical_Editions}}
 
-==Editable Score Data==
+==Editable/Searchable Score Data==
 {{EVE_Editable}}
 
 ==Hybrid Digital Editions==

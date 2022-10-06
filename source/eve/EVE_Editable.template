@@ -4,13 +4,11 @@ Website: [http://www.cmme.org/#ABH CMME]
 
 The idea of CMME, conceived in 1999 as a Princeton undergraduate project by Ted Dumitrescu, was to support dynamic editions based on encoding standards comparable with the most rigorous printed editions.  Editions of music in mensural notation have given rise to many changes of editorial opinion.  In contrast to print, virtual editions have the possibility of being easily re-rendered to express changing views.  On-screen views support the presence or absence of &lt;i>musica ficta&lt;/i> and text underlay rationalized to fit the music or clustered at the start of line (as in many period manuscripts).  Marnix van Berchem is the current director of the Utrecht-based project.
 
-[[File:VHV.png|250px|thumb|left|&lt;small>Snippet from the start of Mozart's piano sonata No. 8 (K. 310) showing Humdrum Kern code (left frame) and its scrolling output (right frame)&lt;/small>.]]
+===Digital Scores of Chopin's First Editions===
 
-===Verovio Humdrum Viewer (and Editor)===
+Website: [http://chopinscores.org Digital Scores of Chopin's First Editions]  
 
-Website: [http://https://verovio.humdrum.org/ Verovio Humdrum Viewer]
-
-The Verovio Humdrum Viewer (VHV) is an implementation of Verovio based on the Kern data format used by the Humdrum (Musical Analysis) Toolkit.  While viewing a score produced from encoded material, a user can edit the code and see the changes immediately. By clicking an arbitrary point in the displayed score the music can also be heard. Verovio is a lightweight library for engraving MEI (Music Encoding Initiatve) scores into vector graphics for online display.)
+The recent new edition of all of Chopin's works is available under the auspices of the Frideric Chopin Institute in Warsaw.  Filters allow users to sort works by genre and publisher, find them by opus number, and search the musical content for specific intervalic and rhythmic patterns.  Interfaces are available in Polish and English (chopinscores.org/en).
 
 ===KernScores===
 
@@ -38,11 +36,11 @@ Website: [http://www.musedata.org MuseData]
 
 MuseData, based at the Center for Computer Assisted Research in the Humanities at Stanford University, refers to (1) an encoding system for music, (2) the software optimized for it, and (3) several corpora of scores encoded in the system. The representation system and software have been developed with Walter Hewlett from 1984 through the present. The basic features of the system are described in &lt;i>Beyond MIDI&lt;/i>: . 
 
-The musical corpora contain more than 1,200 fully encoded works, including symphonies, string quartets, operas, oratorios, cantatas, and other kinds of works. The names of encoders and musical sources are embedded in the files together with other metadata.  A large number of works have been encoded by Frances Bennion and Edmund Correia Jr. Other contributions have been made by [https://www.linkedin.com/in/jpdautricourt Jean-Pierre Dautrecourt], [http://www.pamela-decker.com/ Pamela Decker], [https://www.linkedin.com/pub/michael-flexer/1/458/2a9 Michael Flexer], and Steve Rasmussen. The web interface and data conversion are principally the work of Craig Sapp (also the site manager), with contributions by [http://www.musiccog.ohio-state.edu/Huron/ David Huron] and [https://about.me/andreas.kornstaedt Andreas Kornstaedt].    
+The musical corpora contain more than 1,200 fully encoded works, including symphonies, string quartets, operas, oratorios, cantatas, and other kinds of works. The names of encoders and musical sources are embedded in the files together with other metadata.  A large number of works have been encoded by Frances Bennion and Edmund Correia Jr. Other contributions have been made by Don Anthony, [https://www.linkedin.com/in/jpdautricourt Jean-Pierre Dautrecourt], [http://www.pamela-decker.com/ Pamela Decker], [https://www.linkedin.com/pub/michael-flexer/1/458/2a9 Michael Flexer], and Steven C. Rasmussen. The web interface and data conversion are principally the work of Craig Sapp (also the site manager), with contributions by [http://www.musiccog.ohio-state.edu/Huron/ David Huron] and [https://about.me/andreas.kornstaedt Andreas Kornstaedt].    
 
 Mensural extensions by Hewlett have been adopted by the [http://jrp.stanford.edu Josquin Research Project] and the Tasso Music project (online in 2016). MuseData supports conversion to MIDI, Humdrum Kern, SCORE, MusicXML, and MEI. Direct  conversion from MuseData code to PDF is under development.
 
-The following series of wikis provides PDF scores and/or performing parts generated from edited MuseData-encoded repositories.  Finalized files are stored on [[https://github.com/musedata github]]. Versions for editing can be downloaded from musedata.org.    
+The following series of wikis provides PDF scores and/or performing parts generated from edited MuseData-encoded repositories.  Finalized files are stored on [https://github.com/musedata github]. Versions for editing can be downloaded from [https://musedata.org musedata.org].    
 
 ====MuseData: Ludwig van Beethoven====
 
@@ -52,11 +50,15 @@ Website: [http://wiki.ccarh.org/wiki/MuseData:_Ludwig_van_Beethoven Ludwig van B
 
 * [http://beethoven-string-quartets.ccarh.org String Quartets]
 
+Versions for editing can be downloaded from [https://musedata.org musedata.org].
+
 ====MuseData: Arcangelo Corelli====
 
 Website: [http://wiki.ccarh.org/wiki/MuseData:_Arcangelo_Corelli Arcangelo Corelli]
 
 The 72 sonatas and concertos published in Corelli's lifetime, with facsimiles, PDFs, MIDI files, and commentary.
+
+Versions for editing can be downloaded from [https://musedata.org musedata.org].
 
 ====MuseData: Georg Frideric Händel====
 
@@ -66,15 +68,19 @@ Website: [http://wiki.ccarh.org/wiki/MuseData:_George_Frideric_Handel  Georg Fri
 
 * [http://wiki.ccarh.org/wiki/MuseData:_George_Frideric_Handel#Susanna_.28HWV_66.29 Susanna]
 
-* Concerti Op. 6: score and parts
+Several of the newly edited works are protected by copyright.  Shorter works (e.g. the [https://wiki.ccarh.org/wiki/MuseData:_George_Frideric_Handel#Orchestral_Concerti_Op._6 Concerti Op. 6]) may be downloaded from [https://musedata.org musedata.org] and re-edited.
 
 ====MuseData: Antonio Vivaldi====
 
+[[File:Goldfinch.PNG|550px|thumb|right|&lt;small>The first presentation of the "goldfinch" theme in Vivaldi's flute concerto Op. 10, No. 3.&lt;/small>]]
+
 Website: [http://wiki.ccarh.org/wiki/MuseData:_Antonio_Vivaldi  Antonio Vivaldi]
 
-[[File:Josquin-fugam2.PNG|440px|thumb|left|&lt;small>Start of the Christe section of the Missa Ad fugam,tentatively attributed to Josquin, in the [http://jrp.stanford.edu Josquin Research Project].&lt;/small>]]
+The digital Vivaldi repository currently includes complete editions based on early prints of the sonatas Opp. 1, 2, and 5; the concertos for violin(s) and string orchestra Opp. 4, 8, and 11, plus the "military" oratorio &lt;i>Juditha triumphans&lt;/i> .  Performing parts for Opp. 3, 8, 10, and &lt;i>Juditha triumphans&lt;/i> are also available.
 
 ===Josquin Research Project===
+
+[[File:Josquin-fugam2.PNG|600px|thumb|left|&lt;small>Start of the Christe section of the Missa Ad fugam,tentatively attributed to Josquin, in the [http://jrp.stanford.edu Josquin Research Project].&lt;/small>]]
 
 Website: [http://jrp.stanford.edu/ Josquin Research Project]
 
@@ -93,3 +99,11 @@ The Tasso in Music Project, under the direction of Emiliano Ricciardi, presents 
 Website: [https://github.com/MTG/SymbTr Turkish Makam Music Collection (SymbTr)]
 
 The Turkish Makam Music Symbolic Data Collection (SymbTr) is designed for analysis of encoded repertories and is currently the largest repertory of its kind. It offers 2,200 pieces from 155 makams, 88 usuls, 56 forms, about 865,000 musical notes (80 hours of nominal playback time).  [https://en.wikipedia.org/wiki/Makam Makam] is a system of intervalic relationships and melodic development types widely used in Turkish, Persian, and Arabic music.  This set of encoded scores, based on pieces from Turkish art and folk music, is based on authoritative sources. It covers a broad historical time span among pieces which are still performed in today. Scores are available in [https://github.com/MTG/SymbTr/tree/master/txt text], [https://github.com/MTG/SymbTr/tree/master/MusicXML MusicXML] (compatible with MuseScore, Finale and Sibelius), [https://github.com/MTG/SymbTr-pdf/tree/master PDF], [https://github.com/MTG/SymbTr/tree/master/midi MIDI] and [https://github.com/MTG/SymbTr/tree/master/mu2 mu2] formats. The mu2 format is readable by the microtonal notation editor Mus2.  Now available from [https://github.com/MTG/SymbTr github].
+
+[[File:VHV.png|320px|thumb|left|&lt;small>Snippet from the start of Mozart's piano sonata No. 8 (K. 310) showing Humdrum Kern code (left frame) and its scrolling output (right frame)&lt;/small>.]]
+
+===Verovio Humdrum Viewer (and Editor)===
+
+Website: [http://https://verovio.humdrum.org/ Verovio Humdrum Viewer]
+
+The Verovio Humdrum Viewer (VHV) is an implementation of Verovio based on the Kern data format used by the Humdrum (Musical Analysis) Toolkit.  While viewing a score produced from encoded material, a user can edit the code and see the changes immediately. By clicking an arbitrary point in the displayed score the music can also be heard. Verovio is a lightweight library for engraving MEI (Music Encoding Initiatve) scores into vector graphics for online display.)
